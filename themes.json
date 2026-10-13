@@ -94,5 +94,21 @@
     "onAccent": "#FF03190F",
     "text": "#FFECFDF5",
     "textMuted": "#FF85A396"
+  },
+  "cream": {
+    "name": "Cream",
+    "overlay": "#59000000",
+    "panel": "#FFF9F6EF",
+    "header": "#E6FFFFFF",
+    "surface": "#FFFFFDF8",
+    "surfaceHover": "#FFF3EEE3",
+    "border": "#24B8A88A",
+    "track": "#FFE8E0D2",
+    "accent": "#FFB58A52",
+    "accentHover": "#FFC99F6C",
+    "accent2": "#FF8C7355",
+    "onAccent": "#FFFFFFFF",
+    "text": "#FF332B23",
+    "textMuted": "#FF8F8476"
   }
 }
