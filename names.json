@@ -1,0 +1,10 @@
+{
+  "Nyvetis": {
+    "display": "Nyvetis",
+    "effect": "chroma",
+    "colors": ["#B18CFF", "#FF7EC4", "#5C9DFF"],
+    "speed": 1.0,
+    "bold": true,
+    "italic": false
+  }
+}

@@ -1,0 +1,27 @@
+name: Validate data
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install check-jsonschema
+        run: pip install "check-jsonschema==0.29.4"
+
+      - name: Check schemas against the JSON Schema metaschema
+        run: check-jsonschema --check-metaschema schemas/names.schema.json schemas/themes.schema.json
+
+      - name: Validate names.json
+        run: check-jsonschema --schemafile schemas/names.schema.json names.json
+
+      - name: Validate themes.json
+        run: check-jsonschema --schemafile schemas/themes.schema.json themes.json

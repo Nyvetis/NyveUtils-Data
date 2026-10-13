@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "NyveUtils - thèmes du menu",
+  "description": "Clé = id du thème (minuscules, chiffres, underscore). Valeur = palette du menu.",
+  "type": "object",
+  "minProperties": 1,
+  "propertyNames": {
+    "pattern": "^[a-z0-9_]{1,32}$"
+  },
+  "additionalProperties": { "$ref": "#/$defs/theme" },
+  "$defs": {
+    "argb": {
+      "type": "string",
+      "description": "Couleur au format #AARRGGBB (alpha en premier, comme les Int ARGB du mod).",
+      "pattern": "^#[0-9A-Fa-f]{8}$"
+    },
+    "theme": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "name", "overlay", "panel", "header", "surface", "surfaceHover", "border",
+        "track", "accent", "accentHover", "accent2", "onAccent", "text", "textMuted"
+      ],
+      "properties": {
+        "name": { "type": "string", "minLength": 1, "maxLength": 32, "description": "Nom affiché dans le sélecteur de thème." },
+        "overlay": { "$ref": "#/$defs/argb", "description": "Voile par-dessus le jeu flouté." },
+        "panel": { "$ref": "#/$defs/argb", "description": "Fond du panneau (légèrement transparent : effet verre)." },
+        "header": { "$ref": "#/$defs/argb", "description": "Barre latérale." },
+        "surface": { "$ref": "#/$defs/argb", "description": "Cartes, boutons au repos." },
+        "surfaceHover": { "$ref": "#/$defs/argb", "description": "Cartes, boutons au survol." },
+        "border": { "$ref": "#/$defs/argb", "description": "Contours fins (souvent du blanc/noir très transparent)." },
+        "track": { "$ref": "#/$defs/argb", "description": "Rail de slider, interrupteur éteint." },
+        "accent": { "$ref": "#/$defs/argb", "description": "Couleur d'accent principale." },
+        "accentHover": { "$ref": "#/$defs/argb", "description": "Accent au survol." },
+        "accent2": { "$ref": "#/$defs/argb", "description": "Seconde couleur d'accent : fin des dégradés (préfixe du chat)." },
+        "onAccent": { "$ref": "#/$defs/argb", "description": "Texte posé sur l'accent." },
+        "text": { "$ref": "#/$defs/argb", "description": "Texte principal." },
+        "textMuted": { "$ref": "#/$defs/argb", "description": "Texte secondaire." }
+      }
+    }
+  }
+}

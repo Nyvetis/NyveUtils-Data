@@ -1,0 +1,63 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "NyveUtils - pseudos personnalisés",
+  "description": "Clé = pseudo Minecraft exact (sensible à la casse). Valeur = rendu du pseudo dans le chat.",
+  "type": "object",
+  "propertyNames": {
+    "description": "Pseudo Minecraft valide : 3 à 16 caractères, lettres, chiffres ou underscore.",
+    "pattern": "^[A-Za-z0-9_]{3,16}$"
+  },
+  "additionalProperties": { "$ref": "#/$defs/name" },
+  "$defs": {
+    "rgb": {
+      "type": "string",
+      "description": "Couleur opaque au format #RRGGBB.",
+      "pattern": "^#[0-9A-Fa-f]{6}$"
+    },
+    "name": {
+      "type": "object",
+      "required": ["display", "effect", "colors"],
+      "additionalProperties": false,
+      "properties": {
+        "display": {
+          "type": "string",
+          "description": "Texte affiché à la place du pseudo.",
+          "minLength": 1,
+          "maxLength": 64
+        },
+        "effect": {
+          "enum": ["solid", "gradient", "chroma"],
+          "description": "solid = une couleur, gradient = dégradé fixe, chroma = dégradé animé."
+        },
+        "colors": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/rgb" },
+          "minItems": 1,
+          "maxItems": 16
+        },
+        "speed": {
+          "type": "number",
+          "description": "Vitesse de l'animation chroma (uniquement pour effect = chroma).",
+          "exclusiveMinimum": 0,
+          "maximum": 20
+        },
+        "bold": { "type": "boolean" },
+        "italic": { "type": "boolean" }
+      },
+      "allOf": [
+        {
+          "if": { "properties": { "effect": { "const": "solid" } } },
+          "then": { "properties": { "colors": { "maxItems": 1 } } }
+        },
+        {
+          "if": { "properties": { "effect": { "enum": ["gradient", "chroma"] } } },
+          "then": { "properties": { "colors": { "minItems": 2 } } }
+        },
+        {
+          "if": { "properties": { "effect": { "const": "chroma" } } },
+          "else": { "not": { "required": ["speed"] } }
+        }
+      ]
+    }
+  }
+}
