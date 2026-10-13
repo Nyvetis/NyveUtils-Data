@@ -2,7 +2,7 @@
   "Nyvetis": {
     "display": "Nyvetis",
     "effect": "chroma",
-    "colors": ["#B18CFF", "#FF7EC4", "#5C9DFF"],
+    "colors": ["#B18CFF", "#FF7EC4", "#D98BFF"],
     "speed": 1.0,
     "bold": true,
     "italic": false
