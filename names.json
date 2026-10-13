@@ -1,8 +1,8 @@
 {
   "Nyvetis": {
-    "display": "Nyvetis",
+    "display": "TémaCeNoir",
     "effect": "chroma",
-    "colors": ["#B18CFF", "#FF7EC4", "#D98BFF"],
+    "colors": ["#FF4D4D", "#4DFF88", "#4D79FF"],
     "speed": 1.0,
     "bold": true,
     "italic": false
