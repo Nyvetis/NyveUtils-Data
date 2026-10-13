@@ -10,7 +10,7 @@
   "AquaStrxfe": {
   "display": "Aqua",
   "effect": "chroma",
-  "colors": ["#1C2B30", "#007C91", "#00FFFF"],
+  "colors": ["#344B52", "#00AFC1", "#5FFFFF"],
   "speed": 1.0,
   "bold": true,
   "italic": false
