@@ -15,22 +15,6 @@
     "text": "#FFF2F2F7",
     "textMuted": "#FF8D8D9C"
   },
-  "skyblock": {
-    "name": "Skyblock",
-    "overlay": "#59000000",
-    "panel": "#F00C1821",
-    "header": "#59000000",
-    "surface": "#FF12222E",
-    "surfaceHover": "#FF182C3B",
-    "border": "#2455FFFF",
-    "track": "#FF1F3646",
-    "accent": "#FF3DD9D6",
-    "accentHover": "#FF72E7E4",
-    "accent2": "#FF5C9DFF",
-    "onAccent": "#FF04201F",
-    "text": "#FFEAF6FA",
-    "textMuted": "#FF7F99A8"
-  },
   "nyve": {
     "name": "Nyve",
     "overlay": "#59000000",
