@@ -94,21 +94,5 @@
     "onAccent": "#FFFFFFFF",
     "text": "#FF332B23",
     "textMuted": "#FF8F8476"
-  },
-  "candy": {
-    "name": "Rose Bonbon",
-    "overlay": "#59000000",
-    "panel": "#FFFCEEF5",
-    "header": "#E6FFF5FA",
-    "surface": "#FFFFF5FA",
-    "surfaceHover": "#FFFFE4F1",
-    "border": "#30F472B6",
-    "track": "#FFF3C7DF",
-    "accent": "#FFFF69B4",
-    "accentHover": "#FFFF91C8",
-    "accent2": "#FFCF5BFF",
-    "onAccent": "#FF4A1230",
-    "text": "#FF45172F",
-    "textMuted": "#FFAA7895"
   }
 }
