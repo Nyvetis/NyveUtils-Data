@@ -8,9 +8,9 @@
     "italic": true
   },
   "AquaStrxfe": {
-  "display": "AquaStrwfe",
-  "effect": "gradient",
-  "colors": ["#344B52", "#00AFC1", "#5FFFFF"],
+  "display": "Aqua",
+  "effect": "chroma",
+  "colors": ["#1C2B30", "#007C91", "#00FFFF"],
   "bold": true,
   "italic": true
   }
