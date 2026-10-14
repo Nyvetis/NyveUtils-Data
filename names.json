@@ -11,7 +11,6 @@
   "display": "AquaStrwfe",
   "effect": "gradient",
   "colors": ["#344B52", "#00AFC1", "#5FFFFF"],
-  "speed": 1.0,
   "bold": true,
   "italic": true
   }
