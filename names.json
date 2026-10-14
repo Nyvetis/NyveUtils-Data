@@ -5,14 +5,14 @@
     "colors": ["#2E004F", "#4B0082", "#6A0DAD"],
     "speed": 1.0,
     "bold": true,
-    "italic": false
+    "italic": true
   },
   "AquaStrxfe": {
-  "display": "Aqua",
-  "effect": "chroma",
+  "display": "AquaStrwfe",
+  "effect": "gradient",
   "colors": ["#344B52", "#00AFC1", "#5FFFFF"],
   "speed": 1.0,
   "bold": true,
-  "italic": false
+  "italic": true
   }
 }
