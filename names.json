@@ -11,7 +11,16 @@
   "display": "Aqua",
   "effect": "chroma",
   "colors": ["#344B52", "#00AFC1", "#5FFFFF"],
+  "speed": 1.0,
   "bold": true,
   "italic": true
+  },
+  "3n1o3y1a": {
+  "display": "Le_Gay",
+  "effect": "chroma",
+  "colors": ["#FF0000", "#00FF00", "#0000FF"],
+  "speed": 1.0,
+  "bold": true,
+  "italic": false
   }
 }
