@@ -18,7 +18,7 @@
   "3n1o3y1a": {
   "display": "nnnoyyya",
   "effect": "chroma",
-  "colors": ["#FF0000", "#00FF00", "#0000FF"],
+  "colors": ["#0000FF", "#FFFFFF", "#FF0000"],
   "speed": 1.0,
   "bold": true,
   "italic": false
