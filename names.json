@@ -37,5 +37,12 @@
   "colors": ["#D97F02", "#FFA600", "#F0B13A"],
   "bold": true,
   "italic": false
+  },
+  "Klourei": {
+  "display": "BestSwedishGuy",
+  "effect": "chroma",
+  "colors": ["#006AA7", "#FECC00"],
+  "bold": true,
+  "italic": false
   }
 }
