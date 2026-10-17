@@ -30,5 +30,13 @@
   "speed": 1.0,
   "bold": true,
   "italic": false
+  },
+  "FredoFox": {
+  "display": "FredoFoKseKse",
+  "effect": "chroma",
+  "colors": ["#D97F02", "#FFA600", "#F0B13A"],
+  "speed": 2.0,
+  "bold": true,
+  "italic": false
   }
 }
