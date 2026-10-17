@@ -22,5 +22,13 @@
   "speed": 1.0,
   "bold": true,
   "italic": false
+  },
+  "Kinou0inspi": {
+  "display": "KevinSansInspi",
+  "effect": "chroma",
+  "colors": ["#FE218B", "#FED700", "#21B0FE"],
+  "speed": 1.0,
+  "bold": true,
+  "italic": false
   }
 }
