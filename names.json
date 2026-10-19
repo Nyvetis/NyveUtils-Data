@@ -42,7 +42,7 @@
   "display": "BestSwedishGuy",
   "effect": "chroma",
   "colors": ["#006AA7", "#FECC00"],
-  "speed": 1.5
+  "speed": 1.5,
   "bold": true,
   "italic": false
   },
