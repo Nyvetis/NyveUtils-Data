@@ -34,7 +34,7 @@
   "FredoFox": {
   "display": "FredoFoKseKse",
   "effect": "gradient",
-  "colors": ["#D97F02", "#FFA600", "#F0B13A"],
+  "colors": ["#D97F02", "#FFA600", "#FFC429"],
   "bold": true,
   "italic": false
   },
@@ -42,6 +42,15 @@
   "display": "BestSwedishGuy",
   "effect": "chroma",
   "colors": ["#006AA7", "#FECC00"],
+  "speed": 1.5
+  "bold": true,
+  "italic": false
+  }
+  "Dungeonontopv2": {
+  "display": "Some M7 Tryhard",
+  "effect": "solid",
+  "colors": ["#FF7D00"],
+  "speed": 1.5
   "bold": true,
   "italic": false
   }
