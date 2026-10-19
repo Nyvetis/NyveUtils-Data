@@ -94,5 +94,21 @@
     "onAccent": "#FFFFFFFF",
     "text": "#FF332B23",
     "textMuted": "#FF8F8476"
+  },
+  "fire": {
+    "name": "Red",
+    "overlay": "#59000000",
+    "panel": "#F0161012",
+    "header": "#66000000",
+    "surface": "#FF211619",
+    "surfaceHover": "#FF302026",
+    "border": "#1FFFFFFF",
+    "track": "#FF38252B",
+    "accent": "#FFE5394D",
+    "accentHover": "#FFFF6677",
+    "accent2": "#FFFF8A65",
+    "onAccent": "#FFFFFFFF",
+    "text": "#FFFFF2F3",
+    "textMuted": "#FFB09A9F"
   }
 }
