@@ -7,8 +7,8 @@
     "bold": true,
     "italic": true
   },
-  "⚞ AquaStrxfe ⚟": {
-  "display": "Aqua",
+  "AquaStrxfe": {
+  "display": "⚞Aqua⚟",
   "effect": "chroma",
   "colors": ["#16BBF2", "#08F3FF", "#00BEC7"],
   "speed": 1.5,
